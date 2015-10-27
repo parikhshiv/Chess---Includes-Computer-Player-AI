@@ -6,7 +6,7 @@ This project is a fully interactive, multi featured version of Chess.
 
 ## Run project from the command line with:
 
-'ruby game.rb'
+```ruby game.rb```
 
 Cursor input is available through the keys AWSD. 'Enter' will select and place
 pieces. Games are played against a fully programmed computer AI.
