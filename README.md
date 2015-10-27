@@ -8,5 +8,5 @@ This project is a fully interactive, multi featured version of Chess.
 
 ```ruby game.rb```
 
-Cursor input is available through the keys AWSD. 'Enter' will select and place
+Cursor input is available through the keys AWSD. "Enter" will select and place
 pieces. Games are played against a fully programmed computer AI.
