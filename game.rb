@@ -1,5 +1,4 @@
 require_relative 'player'
-# require 'colorize'
 
 class Game
   def initialize
@@ -22,7 +21,7 @@ class Game
   end
 
   private
-  
+
   attr_reader :board, :display, :players
   attr_accessor :current_player
 
@@ -56,13 +55,5 @@ end
 
 if __FILE__ == $PROGRAM_NAME
   game = Game.new
-
-  # Queen.new([6,5], :black, new_board)
-  # Bishop.new([4,7], :black, new_board)
-  # # Bishop.new([4,7], :black, new_board)
-  # # p new_board[[1,1]].moves
-  # p new_board.check_mate?(:white)
-  # # p new_board[[7,4]].valid_moves
-  # # new_board.grid.flatten.each { |el| p el.color}
   game.run
 end
