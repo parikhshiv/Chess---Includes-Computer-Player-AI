@@ -104,7 +104,6 @@ class ComputerPlayer
       end
     end
     valid_moves_hash
-    p valid_moves_hash
     [valid_moves_hash[best_move].pos, best_move]
   end
 
