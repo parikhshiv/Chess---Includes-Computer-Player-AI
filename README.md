@@ -4,9 +4,9 @@ This project is a fully interactive, multi featured version of Chess.
 
 ![ScreenShot](/images/preview.png)
 
-## Aggressiv Computer AI
+## Aggressive Computer AI
 
-Computer Player finds most aggressive possible move to make (move that will result in one of its pieces being closest to the opponent's king):
+Computer Player finds most "aggressive" possible move to make (move that will result in one of its pieces being closest to the opponent's king):
 
 ```
 def select_best_move(movable_pieces, opponents_king)
